@@ -7,6 +7,7 @@
 *.pyc
 __pycache__/
 local_settings.py
+settings.py
 db.sqlite3
 db.sqlite3-journal
 *.db
@@ -74,6 +75,8 @@ cover/
 *.mo
 
 # Django stuff:
+*.log
+local_settings.py
 
 # Flask stuff:
 instance/
@@ -173,14 +176,9 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-# Otros archivos temporales
-becrm/temporal.py
-*.log
+# Temporal Files
 **/temporal.py
 **/temporal.html
 **/temporal.js
 **/temporal.css
-
-**/migrations/*
-
 
